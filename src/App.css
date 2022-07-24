@@ -6,8 +6,25 @@
 }
 
 hr {
-  width: 90%;
+  width: 100%;
   border-width: 2px;
   color: #b2b2b2;
 }
 
+.wheater-add-button-icon {
+  color: #ffffff;
+}
+
+.wheater-add-button {
+  background-color: #262626;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
+
+input {
+  width: 325px;
+  border-radius: 5px;
+  height: 30px;
+}
