@@ -4,3 +4,10 @@
   justify-content: center;
   margin: 20px;
 }
+
+hr {
+  width: 90%;
+  border-width: 2px;
+  color: #b2b2b2;
+}
+
