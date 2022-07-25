@@ -1,8 +1,10 @@
-.header {
+.wheater-text {
+  min-height: 10vh;
   display: flex;
-  gap: 20px;
   justify-content: center;
-  margin: 20px;
+  align-items: center;
+  gap: 15px;
+  
 }
 
 hr {
@@ -15,16 +17,28 @@ hr {
   color: #ffffff;
 }
 
-.wheater-add-button {
+.wheater-add {
   background-color: #262626;
   border-radius: 5px;
   cursor: pointer;
-  height: 35px;
   width: 35px;
+  height: 35px;
 }
 
-input {
-  width: 325px;
+.wheater-input {
+  width: 320px;
   border-radius: 5px;
-  height: 30px;
+  padding: 0.5rem 1rem;
 }
+
+.wheater-add:disabled {
+  background-color: #b2b2b2;
+}
+
+@media screen and (max-width: 500px){
+  .wheater-input {
+    width: 235px;
+  }
+}
+
+
