@@ -1,10 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
 .wheater-text {
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  
 }
 
 hr {
@@ -35,10 +43,18 @@ hr {
   background-color: #b2b2b2;
 }
 
+.title-text{
+  text-align: center;
+}
+
 @media screen and (max-width: 500px){
   .wheater-input {
     width: 235px;
   }
 }
+
+
+
+
 
 

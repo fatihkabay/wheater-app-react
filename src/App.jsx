@@ -1,11 +1,15 @@
 import "./App.css";
-import "./index.css";
+import React from "react";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+
 function App() {
   return (
     <div className="container">
+      <div className="title-text">
+        <h2>Hava Durumu</h2>
+        Which city would you like to know the weather forecast for?
+      </div>
       <div className="wheater-text">
         <input
           className="wheater-input"
