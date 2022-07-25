@@ -47,6 +47,14 @@ hr {
   text-align: center;
 }
 
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 50px;
+}
+
 @media screen and (max-width: 500px){
   .wheater-input {
     width: 235px;
