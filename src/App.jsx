@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="container">
       <div className="title-text">
-        <h2>Hava Durumu</h2>
+        <h2>Weather Forecast</h2>
         Which city would you like to know the weather forecast for?
       </div>
       <div className="wheater-text">
