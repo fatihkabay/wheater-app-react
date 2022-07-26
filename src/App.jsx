@@ -55,6 +55,7 @@ function App() {
 
         />
       ))}
+      <span className="created-name">Created by Fatih Kabay</span>
     </div>
   );
 }

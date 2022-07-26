@@ -47,6 +47,15 @@ hr {
   text-align: center;
 }
 
+.created-name {
+  font-size: 13.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 5px;
+  color: #d3afb1;
+}
+
 @media screen and (max-width: 500px){
   .wheater-input {
     width: 235px;
@@ -71,3 +80,4 @@ hr {
       margin: 10px;
     }
  }
+ 
