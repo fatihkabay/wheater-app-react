@@ -25,6 +25,7 @@ function App() {
   }
   return (
     <div className="container">
+      <span className="created-name">Created by Fatih Kabay</span>
       <div className="title-text">
         <h2>Weather Forecast</h2>
         Which city would you like to know the weather forecast for?
@@ -52,10 +53,8 @@ function App() {
           maxtemp={item.day.maxtemp_c}
           condition={item.day.condition.text}
           icon={item.day.condition.icon}
-
         />
       ))}
-      <span className="created-name">Created by Fatih Kabay</span>
     </div>
   );
 }
