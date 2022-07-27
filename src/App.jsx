@@ -1,4 +1,3 @@
-//deneme yazýsýdýr
 import "./App.css";
 import React, { useState } from "react";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -18,7 +17,7 @@ function App() {
   }
   async function getdata(value) {
     const data = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=${APP_KEY}&q=${value}&days=3&aqi=no&alerts=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=${APP_KEY}&q=${value}&days=3&aqi=no&alerts=no`
     );
     const result = await data.json();
     setwheatherdata(result.forecast.forecastday);
