@@ -1,3 +1,4 @@
+//deneme yazýsýdýr
 import "./App.css";
 import React, { useState } from "react";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
